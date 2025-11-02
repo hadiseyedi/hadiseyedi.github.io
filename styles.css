@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --accent-color: #3b82f6;
+    --primary-color: #8b5cf6;
+    --secondary-color: #7c3aed;
+    --accent-color: #a78bfa;
     --text-primary: #1f2937;
     --text-secondary: #6b7280;
     --bg-primary: #ffffff;
@@ -181,14 +181,14 @@ section {
 .hero-subtitle {
     font-size: 2rem;
     font-weight: 600;
-    color: #ffffff;  /* Change this line - same as hero-title */
+    color: var(--text-secondary);
     margin-bottom: 20px;
     animation: fadeInUp 0.8s ease 0.2s both;
 }
 
 .hero-description {
     font-size: 1.2rem;
-    color: #ffffff;  /* Change this line - same as hero-title */
+    color: var(--text-secondary);
     margin-bottom: 40px;
     line-height: 1.8;
     animation: fadeInUp 0.8s ease 0.4s both;
