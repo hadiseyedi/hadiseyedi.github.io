@@ -181,14 +181,14 @@ section {
 .hero-subtitle {
     font-size: 2rem;
     font-weight: 600;
-    color: var(--text-secondary);
+    color: #ffffff;  /* Change this line - same as hero-title */
     margin-bottom: 20px;
     animation: fadeInUp 0.8s ease 0.2s both;
 }
 
 .hero-description {
     font-size: 1.2rem;
-    color: var(--text-secondary);
+    color: #ffffff;  /* Change this line - same as hero-title */
     margin-bottom: 40px;
     line-height: 1.8;
     animation: fadeInUp 0.8s ease 0.4s both;
